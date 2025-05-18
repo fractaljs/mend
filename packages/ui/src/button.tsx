@@ -7,8 +7,8 @@ export interface ButtonProps
 export function Button({ children, ...other }: ButtonProps): any {
   return (
     <button type="button" {...other}>
-      {children}
-    </button>
+      {children}s
+    </button> 
   );
 }
 
